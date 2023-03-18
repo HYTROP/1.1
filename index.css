@@ -289,6 +289,7 @@ h1 {
 
 .radio {
   margin-right: 5px;
+  cursor: pointer;
 }
 
 .choise--plan--radio div {
@@ -300,7 +301,6 @@ h1 {
 .choise--plan--radio p {
   font-weight: 600;
   font-size: 14px;
-  cursor: help;
 }
 
 .choise--plan--radio span {
