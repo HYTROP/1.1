@@ -168,14 +168,13 @@ h1 {
 
 .or--line {
   display: flex;
-  width: 450px;
-  /* margin-left: -35px; */
-  margin-top: 40px;
+  align-items: center;
   justify-content: center;
+  width: 450px;
+  margin-top: 40px;
 }
 
 .or--word {
-  position: relative;
   width: 20px;
   margin-top: 2px;
   text-align: center;
@@ -194,7 +193,7 @@ h1 {
   padding: 0;
   height: 0;
   border: none;
-  border-top: 1px solid #333;
+  border-top: 0.1px solid #535353;
 }
 
 /* .main--user--form {
@@ -279,12 +278,12 @@ h1 {
 
 
 .choise--plan--radio {
+  display: flex;
   font-size: 10px;
   color: rgba(0, 0, 0, 0.64);
   width: auto;
   margin-top: 70px;
-  display: flex;
-  justify-content: baseline;
+
 }
 
 .radio {
@@ -313,7 +312,6 @@ h1 {
 
 .choise--plan--radio:has(span:hover)~.marker {
   visibility: visible;
-  /* background-color: #0076B6; */
 }
 
 
@@ -342,12 +340,14 @@ h1 {
   z-index: -1;
   opacity: 0;
   font-size: 10px;
+
 }
 
 .checkbox--input+label {
   display: inline-flex;
   align-items: center;
   user-select: none;
+  cursor: pointer;
 }
 
 .checkbox--input+label::before {
