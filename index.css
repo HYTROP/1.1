@@ -34,16 +34,6 @@ img {
   height: auto;
 }
 
-body {
-  @font-face {
-    font-family: 'Barlow';
-    src: url('/web-fonts/barlow_light_macroman/Barlow-Light-webfont.woff');
-    src: url('/web-fonts/barlow_medium_macroman/Barlow-Medium-webfont.woff');
-    src: url('/web-fonts/barlow_regular_macroman/Barlow-Regular-webfont.woff');
-    src: url('/web-fonts/barlow_semibold_macroman/Barlow-SemiBold-webfont.woff');
-  }
-}
-
 p {
   font-family: 'Barlow';
 }
